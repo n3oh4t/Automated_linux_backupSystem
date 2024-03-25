@@ -1,0 +1,12 @@
+{
+    "shellcheck.enableQuickFix": false,
+    "shellcheck.exclude": ["1017"],
+    "shellcheck.ignorePatterns": {
+        "**/*.zsh": true,
+        "**/*.zsh*": true,
+        "**/.git/*.sh": true,
+        "**/folder/**/*.sh": true
+    },
+    // Is Git enabled
+    "git.enabled": true,
+}
